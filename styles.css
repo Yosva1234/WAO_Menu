@@ -15,6 +15,7 @@ header {
   background-image: url('imagenes/photo_2025-03-12_11-15-29.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%;
   color: white;
   padding: 100px 0; /* Ajusta el padding */
   text-align: center;
