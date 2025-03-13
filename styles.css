@@ -8,27 +8,26 @@ body, html, * {
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  padding: 1%px;
+  padding: 10px; /* Corregido */
 }
 
 header {
   background-image: url('imagenes/photo_2025-03-12_11-15-29.jpg');
-  height: auto;
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 20%;
+  padding: 100px 0; /* Ajusta el padding */
   text-align: center;
   position: relative;
+  max-height: 400px; /* Limita la altura máxima */
 }
 
-
 main {
-  margin-bottom: 100px;
+  margin-bottom: 150px; /* Aumenta el margen si es necesario */
 }
 
 .fotocategorias {
-  width: auto;
+  width: 100%; /* Asegura que la imagen no se desborde */
   height: auto;
   display: block;
   margin: 10px auto;
@@ -94,15 +93,18 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: 10px; /* Añade un poco de padding */
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-
 /* Responsividad */
 @media (max-width: 768px) {
+  header {
+      padding: 50px 0; /* Reduce el padding en pantallas pequeñas */
+  }
+
   #platos-container {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
@@ -117,6 +119,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+  header {
+      padding: 30px 0; /* Reduce aún más el padding en móviles */
+  }
+
   #platos-container {
       grid-template-columns: 1fr;
   }
@@ -128,5 +134,4 @@ footer {
   .plato p {
       font-size: 0.9em;
   }
-
 }
