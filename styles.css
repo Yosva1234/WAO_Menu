@@ -14,7 +14,6 @@ body {
 header {
   background-image: url('imagenes/photo_2025-03-12_11-15-29.jpg');
   background-size: cover;
-  height: 100%;
   background-position: center;
   color: white;
   padding: 100px 0; /* Ajusta el padding */
@@ -28,9 +27,9 @@ main {
 }
 
 .fotocategorias {
-  width: 100%; /* Asegura que la imagen no se desborde */
+  max-width: 100%;
   height: auto;
-  display: block;
+  display: auto;
   margin: 10px auto;
 }
 
