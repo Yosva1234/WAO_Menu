@@ -16,7 +16,7 @@ header {
   background-size: cover;
   background-position: center;
   width: 100%;
-  color: white;
+  color: rgb(241, 231, 231);
   padding: 100px 0; /* Ajusta el padding */
   text-align: center;
   position: relative;
