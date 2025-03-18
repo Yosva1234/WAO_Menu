@@ -36,7 +36,7 @@ main {
   border-radius: 15px; /* Bordes redondeados */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
   max-width: 800px; /* Ancho máximo del contenedor */
-  margin: 1px auto ; /* Centrar el contenedor en la página */
+  margin: 2% auto ; /* Centrar el contenedor en la página */
   font-family: 'Arial', sans-serif; /* Fuente moderna */
 }
 
@@ -112,7 +112,7 @@ h2
 {
   position: relative; /* Asegura que el texto esté por encima de la imagen */
   z-index: 2; /* Coloca el texto por encima de la imagen */
-  color: rgb(128, 128, 128); /* Cambia el color del texto para que sea visible sobre la imagen */
+  color: rgb(0, 0, 0); /* Cambia el color del texto para que sea visible sobre la imagen */
   font-size: 2em; /* Ajusta el tamaño del texto */
 }
 
