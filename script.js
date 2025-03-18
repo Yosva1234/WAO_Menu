@@ -33,7 +33,7 @@ const especialidad = [
   {nombre : "Pan con Perro Perro" , precio : "450.00"},
 ]
 mostrarPlatos(especialidad,"Especialidades de la Casa");
-// mostrarPlatos(entrantes,"entrantes");
+mostrarPlatos(entrantes,"entrantes");
 mostrarPlatos(bebidas,"bebidas");
 mostrarPlatos(sandwishes,"sandwiches");
 
