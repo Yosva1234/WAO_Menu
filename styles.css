@@ -25,6 +25,7 @@ header {
 
 main {
   margin-bottom: 150px; /* Aumenta el margen si es necesario */
+  border: 4%;
 }
 /* Estilos generales para la sección de presentación */
 .presentacion {
@@ -35,7 +36,7 @@ main {
   border-radius: 15px; /* Bordes redondeados */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
   max-width: 800px; /* Ancho máximo del contenedor */
-  margin: 50px ; /* Centrar el contenedor en la página */
+  margin: 1px auto ; /* Centrar el contenedor en la página */
   font-family: 'Arial', sans-serif; /* Fuente moderna */
 }
 
@@ -126,7 +127,7 @@ h2
   background-color: transparent;
   border-radius: 2px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 0;
+  padding: 2%;
   text-align: left;
 }
 
