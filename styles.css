@@ -8,10 +8,10 @@ body, html, * {
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  padding: 10px; /* Corregido */
 }
 
 header {
+  margin: 1%;
   background-image: url('imagenes/photo_2025-03-12_11-15-29.jpg');
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@ main {
   margin-bottom: 150px; /* Aumenta el margen si es necesario */
 }
 .containers {
-  margin: 5%;
+  margin: 0;
   background-image: url('imagenes/photo_2025-03-12_11-15-37.jpg');
   background-size: cover;
   background-position: center;
@@ -40,7 +40,7 @@ main {
 }
 
 .containerb {
-  margin: 5%;
+  margin: 0;
   background-image: url('imagenes/photo_2025-03-12_11-15-33.jpg');
   background-size: cover;
   background-position: center;
@@ -53,7 +53,7 @@ main {
 }
 
 .containere {
-  margin: 2%;
+  margin: 0;
   background-image: url('imagenes/photo_2025-03-12_11-15-24.jpg');
   background-size: cover;
   background-position: center;
