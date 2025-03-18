@@ -65,10 +65,13 @@ function rayitas(nombre, precio) {
   let answer = "";
   const totalLength = nombre.length + precio.length;
 
-  // Añade rayitas hasta alcanzar una longitud total de 35 caracteres
-  for (let x = totalLength; x <= 35; x++) {
+  totalLength%=35;
+    
+  for (let x = totalLength; x <= 38; x++) {
     answer += "-";
   }
+
+
 
   return answer;
 }
