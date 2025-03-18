@@ -63,7 +63,7 @@ function mostrarPlatos(platos, id) {
 
 function rayitas(nombre, precio) {
   let answer = "";
-  const totalLength = nombre.length + precio.length;
+  totalLength = nombre.length + precio.length;
 
   totalLength%=35;
     
