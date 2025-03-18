@@ -28,20 +28,20 @@ main {
 }
 /* Estilos generales para la sección de presentación */
 .presentacion {
-  background: linear-gradient(135deg, #6e8efb, #4a6cf7); /* Fondo con degradado */
+  background: linear-gradient(135deg, #a7b7ea, #414865); /* Fondo con degradado */
   color: white; /* Color del texto */
   padding: 40px 20px; /* Espaciado interno */
   text-align: center; /* Centrar el texto */
   border-radius: 15px; /* Bordes redondeados */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
   max-width: 800px; /* Ancho máximo del contenedor */
-  margin: 50px auto; /* Centrar el contenedor en la página */
+  margin: 50px ; /* Centrar el contenedor en la página */
   font-family: 'Arial', sans-serif; /* Fuente moderna */
 }
 
 /* Estilos para el título h4 */
-.presentacion h4 {
-  font-size: 1.8em; /* Tamaño del texto */
+.presentacion h6 {
+  font-size: 1.3em; /* Tamaño del texto */
   margin-bottom: 20px; /* Espaciado inferior */
   line-height: 1.5; /* Altura de línea para mejor legibilidad */
   font-weight: 600; /* Grosor de la fuente */
@@ -50,7 +50,7 @@ main {
 
 /* Estilos para el párrafo */
 .presentacion p {
-  font-size: 1.2em; /* Tamaño del texto */
+  font-size: 1em; /* Tamaño del texto */
   font-style: italic; /* Texto en cursiva */
   opacity: 0.9; /* Ligera transparencia */
   margin-top: 10px; /* Espaciado superior */

@@ -14,7 +14,7 @@ const bebidas = [
   {nombre : "Cervezas" , precio : "250.00"},
   {nombre : "Cerveza Cristal" , precio : "300.00"},
   {nombre : "Malteada" , precio : "500.00"},
-  {nombre : "Batidos de Helado" , precio : "500.00"},
+  {nombre : "Batidos de Helado" , precio : "800.00"},
   {nombre : "Michelada (Cerveza Cristal)" , precio : "600.00"},
   {nombre : "Michelada (Cacique)" , precio : "500.00"}
 ]
@@ -26,9 +26,9 @@ const entrantes = [
   {nombre : "Picadera Waoo!" , precio : "2000.00"},
 ]
 const especialidad = [
-  {nombre : "Pollo Chiflado" , precio: "2000.00"},
+  {nombre : "Pollo Chiflado" , precio: "1000.00"},
   {nombre : "Crudo de Pescado" , precio: "450.00"},
-  {nombre : "Ensalada Fr[ia" , precio : "300.00"},
+  {nombre : "Ensalada Fría" , precio : "300.00"},
   {nombre : "El Wapeton (helado, dulces, nutella y confituras" , precio : "1500.00"},
   {nombre : "Pan con Perro Perro" , precio : "450.00"},
 ]
