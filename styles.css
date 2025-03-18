@@ -26,6 +26,35 @@ header {
 main {
   margin-bottom: 150px; /* Aumenta el margen si es necesario */
 }
+/* Estilos generales para la sección de presentación */
+.presentacion {
+  background: linear-gradient(135deg, #6e8efb, #4a6cf7); /* Fondo con degradado */
+  color: white; /* Color del texto */
+  padding: 40px 20px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 50px auto; /* Centrar el contenedor en la página */
+  font-family: 'Arial', sans-serif; /* Fuente moderna */
+}
+
+/* Estilos para el título h4 */
+.presentacion h4 {
+  font-size: 1.8em; /* Tamaño del texto */
+  margin-bottom: 20px; /* Espaciado inferior */
+  line-height: 1.5; /* Altura de línea para mejor legibilidad */
+  font-weight: 600; /* Grosor de la fuente */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto */
+}
+
+/* Estilos para el párrafo */
+.presentacion p {
+  font-size: 1.2em; /* Tamaño del texto */
+  font-style: italic; /* Texto en cursiva */
+  opacity: 0.9; /* Ligera transparencia */
+  margin-top: 10px; /* Espaciado superior */
+}
 .containers {
   margin: 0;
   background-image: url('imagenes/photo_2025-03-12_11-15-37.jpg');
@@ -82,7 +111,7 @@ h2
 {
   position: relative; /* Asegura que el texto esté por encima de la imagen */
   z-index: 2; /* Coloca el texto por encima de la imagen */
-  color: rgb(0, 0, 0); /* Cambia el color del texto para que sea visible sobre la imagen */
+  color: rgb(128, 128, 128); /* Cambia el color del texto para que sea visible sobre la imagen */
   font-size: 2em; /* Ajusta el tamaño del texto */
 }
 
