@@ -1,29 +1,29 @@
 const sandwishes = [
   { nombre: "Pan con Lechón-------------------", precio: "400.00" },
   { nombre: "Pan con Jamón--------------------", precio: "300.00" },
-  { nombre: "Pan con Perro--------------------", precio: "225.00" },
+  { nombre: "Pan con Perro----------------------", precio: "225.00" },
   { nombre: "Pan/Jamón Jamón------------------", precio: "600.00" },
   { nombre: "Pan/Jamón y Queso----------------", precio: "700.00" },
-  { nombre: "Pan con Lechón WAOO!-------------", precio: "800.00" }
+  { nombre: "Pan con Lechón WAOO!-----------", precio: "800.00" }
 ];
 
 const bebidas = [
   { nombre: "Jugos de Caja--------------------", precio: "190.00" },
   { nombre: "Refrescos de Lata----------------", precio: "220.00" },
-  { nombre: "Cervezas-------------------------", precio: "250.00" },
-  { nombre: "Cerveza Cristal------------------", precio: "300.00" },
-  { nombre: "Malteada-------------------------", precio: "500.00" },
+  { nombre: "Cervezas--------------------------", precio: "250.00" },
+  { nombre: "Cerveza Cristal-------------------", precio: "300.00" },
+  { nombre: "Malteada--------------------------", precio: "500.00" },
   { nombre: "Batidos de Helado----------------", precio: "800.00" },
   { nombre: "Michelada (Cerveza Cristal)------", precio: "600.00" },
   { nombre: "Michelada (Cacique)--------------", precio: "500.00" }
 ];
 
 const entrantes = [
-  { nombre: "Fritas de Malanga----------------", precio: "400.00" },
-  { nombre: "Croquetas------------------------", precio: "450.00" },
+  { nombre: "Fritas de Malanga------------------", precio: "400.00" },
+  { nombre: "Croquetas--------------------------", precio: "450.00" },
   { nombre: "Tostones Rellenos(J/Queso)-------", precio: "700.00" },
-  { nombre: "Frituras de Malanga--------------", precio: "700.00" },
-  { nombre: "Picadera Waoo!------------------", precio: "2000.00" }
+  { nombre: "Frituras de Malanga---------------", precio: "700.00" },
+  { nombre: "Picadera Waoo!-------------------", precio: "2000.00" }
 ];
 
 const especialidad = [
