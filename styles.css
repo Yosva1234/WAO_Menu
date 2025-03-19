@@ -112,6 +112,7 @@ main {
   border-radius: 15px;
   border: 1%;
   position: relative;
+  width: 100%;
 }
 
 h2
