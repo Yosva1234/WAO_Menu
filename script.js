@@ -65,7 +65,7 @@ function rayitas(nombre, precio) {
   let answer = "";
   totalLength = nombre.length + precio.length;
     
-  for (let x = totalLength; x <= 35; x++) {
+  for (let x = totalLength; x <= 30; x++) {
     answer += "-";
   }
 
