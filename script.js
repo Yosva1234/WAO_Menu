@@ -8,7 +8,7 @@ const sandwishes = [
 ];
 
 const bebidas = [
-  { nombre: "Jugos de Caja------------------------------------------------------", precio: "190.00" },
+  { nombre: "Jugos de Caja------------------------", precio: "190.00" },
   { nombre: "Refrescos de Lata", precio: "220.00" },
   { nombre: "Cervezas", precio: "250.00" },
   { nombre: "Cerveza Cristal", precio: "300.00" },
