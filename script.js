@@ -53,23 +53,10 @@ function mostrarPlatos(platos, id) {
 
     // Construye el contenido HTML para cada plato
     platoElement.innerHTML = `
-      <h3>${plato.nombre}${rayitas(plato.nombre, plato.precio)} $${plato.precio}</h3>
+      <h3>${plato.nombre}$${plato.precio}</h3>
     `;
 
     // Agrega el elemento al contenedor
     platosContainer.appendChild(platoElement);
   });
-}
-
-function rayitas(nombre, precio) {
-  let answer = "";
-  totalLength = nombre.length + precio.length;
-    
-  for (let x = totalLength; x <= 30; x++) {
-    answer += "-";
-  }
-
-
-
-  return answer;
 }
