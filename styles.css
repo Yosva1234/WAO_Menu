@@ -94,7 +94,6 @@ main {
   position: relative;
   max-height: 400px; /* Limita la altura máxima */
 }
-
 .containere {
   margin: 0;
   background-image: url('imagenes/photo_2025-03-12_11-15-24.jpg');
@@ -106,6 +105,13 @@ main {
   text-align: center;
   position: relative;
   max-height: 400px; /* Limita la altura máxima */
+}
+.dulces
+{
+  align-items: center;
+  border-radius: 15px;
+  border: 1%;
+  position: relative;
 }
 
 h2
