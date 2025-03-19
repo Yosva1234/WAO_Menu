@@ -1,9 +1,9 @@
 const sandwishes = [
-  { nombre: "Pan con Lechón-------------------", precio: "400.00" },
-  { nombre: "Pan con Jamón------------------", precio: "300.00" },
-  { nombre: "Pan con Perro----------------------", precio: "225.00" },
-  { nombre: "Pan/Jamón Jamón------------------", precio: "600.00" },
-  { nombre: "Pan/Jamón y Queso---------------", precio: "700.00" },
+  { nombre: "Pan con Lechón--------------------", precio: "400.00" },
+  { nombre: "Pan con Jamón---------------------", precio: "300.00" },
+  { nombre: "Pan con Perro-----------------------", precio: "225.00" },
+  { nombre: "Pan/Jamón Jamón-----------------", precio: "600.00" },
+  { nombre: "Pan/Jamón y Queso----------------", precio: "700.00" },
   { nombre: "Pan con Lechón WAOO!------------", precio: "800.00" }
 ];
 
@@ -28,10 +28,10 @@ const entrantes = [
 
 const especialidad = [
   { nombre: "Pollo Chiflado--------------------", precio: "1000.00" },
-  { nombre: "Crudo de Pescado----------------", precio: "450.00" },
-  { nombre: "Ensalada Fría---------------------", precio: "300.00" },
-  { nombre: "El Wapeton----------------------", precio: "1500.00" },
-  { nombre: "Pan con Perro Perro-------------", precio: "450.00" }
+  { nombre: "Crudo de Pescado-----------------", precio: "450.00" },
+  { nombre: "Ensalada Fría-----------------------", precio: "300.00" },
+  { nombre: "El Wapeton------------------------", precio: "1500.00" },
+  { nombre: "Pan con Perro Perro---------------", precio: "450.00" }
 ];
 
 // Mostrar los platos en la página
