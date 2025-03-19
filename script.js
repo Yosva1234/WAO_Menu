@@ -21,7 +21,7 @@ const bebidas = [
 const entrantes = [
   { nombre: "Fritas de Malanga", precio: "400.00" },
   { nombre: "Croquetas", precio: "450.00" },
-  { nombre: "Tostones Rellenos (Jamón y Queso)--------------------------", precio: "700.00" },
+  { nombre: "Tostones Rellenos (Jamón y Queso)-----------------------------------------------------", precio: "700.00" },
   { nombre: "Frituras de Malanga", precio: "700.00" },
   { nombre: "Picadera Waoo!", precio: "2000.00" }
 ];
