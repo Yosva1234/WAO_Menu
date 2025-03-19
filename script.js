@@ -1,5 +1,5 @@
 const sandwishes = [
-  { nombre: "Pan con Lechón ", precio: "400.00" },
+  { nombre: "Pan con Lechón-------------------", precio: "400.00" },
   { nombre: "Pan con Jamón ", precio: "300.00" },
   { nombre: "Pan con Perro ", precio: "225.00" },
   { nombre: "Pan/Jamón Jamón", precio: "600.00" },
@@ -8,7 +8,7 @@ const sandwishes = [
 ];
 
 const bebidas = [
-  { nombre: "Jugos de Caja", precio: "190.00" },
+  { nombre: "Jugos de Caja------------------------------------------------------", precio: "190.00" },
   { nombre: "Refrescos de Lata", precio: "220.00" },
   { nombre: "Cervezas", precio: "250.00" },
   { nombre: "Cerveza Cristal", precio: "300.00" },
