@@ -106,15 +106,15 @@ main {
   position: relative;
   max-height: 400px; /* Limita la altura máxima */
 }
-.dulces
+
+.dulces img
 {
   margin: 0;
   background-position: center;
   width: 100%;
   color: rgb(241, 231, 231);
-  padding: 100px 0; /* Ajusta el padding */
-  position: relative;
-  max-height: 400px; /* Limita la altura máxima */
+  padding: 10px 0; /* Ajusta el padding */
+  position: relative; /* Limita la altura máxima */
 }
 
 h2
