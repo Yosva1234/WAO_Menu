@@ -21,7 +21,7 @@ const bebidas = [
 const entrantes = [
   { nombre: "Fritas de Malanga", precio: "400.00" },
   { nombre: "Croquetas", precio: "450.00" },
-  { nombre: "Tostones Rellenos (Jamón y Queso)---------------------", precio: "700.00" },
+  { nombre: "Tostones Rellenos (Jamón y Queso)--------------------------", precio: "700.00" },
   { nombre: "Frituras de Malanga", precio: "700.00" },
   { nombre: "Picadera Waoo!", precio: "2000.00" }
 ];
@@ -30,7 +30,7 @@ const especialidad = [
   { nombre: "Pollo Chiflado", precio: "1000.00" },
   { nombre: "Crudo de Pescado", precio: "450.00" },
   { nombre: "Ensalada Fría", precio: "300.00" },
-  { nombre: "El Wapeton (helado, dulces, nutella y confituras)----------", precio: "1500.00" },
+  { nombre: "El Wapeton (helado, dulces, nutella y confituras)---------------------", precio: "1500.00" },
   { nombre: "Pan con Perro Perro", precio: "450.00" }
 ];
 
@@ -64,8 +64,6 @@ function mostrarPlatos(platos, id) {
 function rayitas(nombre, precio) {
   let answer = "";
   totalLength = nombre.length + precio.length;
-
-  totalLength%=35;
     
   for (let x = totalLength; x <= 38; x++) {
     answer += "-";
