@@ -7,8 +7,8 @@ const sandwishes = [
   { nombre: "Pan con Hamburguesa---------------", precio: "850.00" },
   { nombre: "Pan/Jamón Jamon y Queso------", precio: "800.00" },
   { nombre: "Pan con Lechón WAOO!-----------", precio: "1000.00" },
-  { nombre: "Pan con Lechón SUPERWAOO!---", precio: "1500.00" },
-  { nombre: "Pan WAOO!----------------------", precio: "1700.00" },
+  { nombre: "Pan con Lechón SUPERWAOO!-", precio: "1500.00" },
+  { nombre: "Pan WAOO!------------------------", precio: "1700.00" },
   
 ];
 
